@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import PocketCasts from '../podfont-plugin/a-pocket-casts'
 export default {
   props: {
     color: {
@@ -17,7 +18,7 @@ export default {
   },
   data () {
     return {
-      svg: null
+      svg: PocketCasts
     }
   },
   computed: {
